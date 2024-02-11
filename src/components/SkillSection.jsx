@@ -3,19 +3,19 @@ import Skills from "./Skills";
 export default function SkillSection() {
   const languageProps = [
     {
-      image: "public/java.svg",
+      image: "java.svg",
       name: "Java",
       bgColor: "bg-[#444444]",
       fontColor: "text-white",
     },
     {
-      image: "public/python.svg",
+      image: "python.svg",
       name: "Python",
       bgColor: "bg-[#F5F5DC]",
       fontColor: "text-black",
     },
     {
-      image: "public/javascript.svg",
+      image: "javascript.svg",
       name: "Javascript",
       bgColor: "bg-[#1976D2]",
       fontColor: "text-white",
@@ -23,12 +23,12 @@ export default function SkillSection() {
   ];
   const frontendProps = [
     {
-      image: "public/react.svg",
+      image: "react.svg",
       name: "React",
       bgColor: "bg-[#B3E5FC]",
     },
     {
-      image: "public/tailwind.svg",
+      image: "tailwind.svg",
       name: "TailwindCSS",
       bgColor: "bg-[#F4BBFF]",
     },
@@ -36,7 +36,7 @@ export default function SkillSection() {
 
   const backendProps = [
     {
-      image: "public/spring.svg",
+      image: "spring.svg",
       name: "Spring",
       bgColor: "bg-[#009E60]",
       fontColor: "text-white",

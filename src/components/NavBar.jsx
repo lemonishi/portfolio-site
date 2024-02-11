@@ -13,13 +13,13 @@ export default function NavBar() {
           <a href="">Home</a>
         </div>
         <img
-          src="public/nav-icon.svg"
+          src="nav-icon.svg"
           alt="SVG Image"
           className={`w-auto h-6 z-200 sm:hidden ${navActive ? "hidden" : "flex"}`}
           onClick={handleNav}
         />
         <img
-          src="public/nav-cross.svg"
+          src="nav-cross.svg"
           alt="SVG Image"
           className={`w-auto h-6 z-100 sm:hidden ${navActive ? "flex" : "hidden"}`}
           onClick={handleNav}

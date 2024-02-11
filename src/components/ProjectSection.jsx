@@ -15,7 +15,7 @@ const profileProps = [
     title: "CV Creator",
     description:
       "A simple form to generate a CV, exportable to PDF. I built this while learning state management.",
-    background: "url(public/cv-preview.png)",
+    background: "url(cv-preview.png)",
   },
   {
     title: "Python",

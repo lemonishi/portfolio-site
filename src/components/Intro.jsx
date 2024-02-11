@@ -3,7 +3,7 @@ export default function Intro() {
     <div className="flex justify-center">
       <div className="text-white py-6 max-w-screen-lg w-full">
         <img
-          src="public/intro-banner.jpg"
+          src="intro-banner.jpg"
           alt="LE SSERAFIM"
           className="h-[373px] object-cover mx-auto mb-6"
         />
