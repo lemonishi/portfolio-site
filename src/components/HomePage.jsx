@@ -1,7 +1,15 @@
+import Intro from "./Intro";
+import MoreAboutMe from "./MoreAboutMe";
+import ProjectSection from "./ProjectSection";
+import SkillSection from "./SkillSection";
+
 export default function HomePage() {
   return (
-    <div className="font-bold text-white">
-      <p>Hello World</p>
-    </div>
+    <main>
+      <Intro />
+      <SkillSection />
+      <ProjectSection />
+      <MoreAboutMe />
+    </main>
   );
 }
